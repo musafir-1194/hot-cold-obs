@@ -1,6 +1,12 @@
-# HotColdObv
+# Hot and Cold Observables
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Cold observables start to emit values only when we subscribe to them.
+
+Hot ones emit always - fromEvent(), RxJs Subjects, Some opertors: share(), shareReplay()
+
+Cold observables are unicast, and Hot observables are multicast (share value between multiple subscirbers)
+
+For Hot observables data source is created and activated outside of observables. For Cold ones - inside
 
 ## Development server
 
